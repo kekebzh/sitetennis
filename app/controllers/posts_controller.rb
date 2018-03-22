@@ -30,6 +30,7 @@ class PostsController < ApplicationController
 			redirect_to @post, notice: "Update successful"
 		else
 			render 'edit'
+		end
 	end
 
 	def destroy
